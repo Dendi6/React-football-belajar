@@ -1,0 +1,8 @@
+table * {
+  text-align: center;
+}
+
+table a {
+  font-weight: bold;
+  color: #2d3e50;
+}

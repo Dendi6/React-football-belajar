@@ -1,0 +1,8 @@
+.card-league {
+  box-shadow: none;
+  border-radius: 10px;
+}
+
+.card-league img {
+  padding: 15%;
+}

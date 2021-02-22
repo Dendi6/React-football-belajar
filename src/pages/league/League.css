@@ -1,0 +1,23 @@
+.tabs .tab a {
+  color: #2d3e50;
+}
+
+.tabs .tab a:hover {
+  font-weight: bold;
+  color: #2d3e50;
+}
+
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
+  background-color: #f8f8f8;
+  outline: none;
+}
+
+.tabs .tab a.active {
+  font-weight: bold;
+  color: #2d3e50;
+}
+
+.tabs .indicator {
+  background-color: #2d3e50;
+}

@@ -1,0 +1,42 @@
+nav {
+  background-color: #f8f8f8;
+  box-shadow: none;
+}
+
+nav * {
+  color: #2d3e50 !important;
+}
+
+nav a:hover {
+  background-color: #f8f8f8 !important;
+  color: #2d3e50 !important;
+}
+
+nav .active {
+  font-weight: bold;
+  color: #2d3e50 !important;
+  border-bottom: #2d3e50 solid 4px;
+}
+
+.nav {
+  padding: 0% 2%;
+}
+
+.nav button {
+  border: none;
+  background-color: #f8f8f8;
+}
+
+.nav button:hover {
+  color: #2d3e50;
+}
+
+.sidenav a:hover {
+  color: #2d3e50 !important;
+}
+
+.sidenav .active {
+  font-weight: bold;
+  color: #2d3e50 !important;
+  border-right: #2d3e50 solid 4px;
+}
