@@ -21,7 +21,7 @@ export function NavigasiHome() {
                 preventScrolling: true
             }}>
             <NavLink to="/" className="sidenav-close" exact activeClassName="active" >Home</NavLink>
-            {/* <NavLink to="/team" className="sidenav-close" exact activeClassName="active" >Team</NavLink> */}
+            <NavLink to="/About" className="sidenav-close" exact activeClassName="active" >About</NavLink>
         </Navbar >
     );
 }

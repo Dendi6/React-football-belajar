@@ -57,6 +57,9 @@ body {
   .detail {
     padding: 35% 0%;
   }
+  .detail-about {
+    padding: 15% 0%;
+  }
 }
 
 .icon {

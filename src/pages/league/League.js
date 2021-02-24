@@ -7,7 +7,7 @@ import { baseURL } from "../../config/ConfigApi";
 
 import Loading from "../../component/Loading";
 import ListTeam from "../team/ListTeam";
-import Season from "../season/Season";
+import TableSeason from "../season/TableSeason";
 import Event from "../event/Event";
 
 
@@ -93,8 +93,8 @@ function League() {
                         responsiveThreshold: Infinity,
                         swipeable: false
                     }}
-                    title="List Season">
-                    {<Season />}
+                    title="List Table">
+                    {<TableSeason />}
                 </Tab>
             </Tabs>
         </div>

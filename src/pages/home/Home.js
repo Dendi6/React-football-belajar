@@ -19,6 +19,7 @@ function Home() {
                 .then(Response => {
                     const data = Response.data.countrys
                     data.sort(compareValues('idLeague'))
+                    console.log(data)
                     setLeague(data);
                 })
             setLoading(true)
@@ -36,7 +37,7 @@ function Home() {
             league.map(data =>
                 <Col s={6} m={4} key={data.idLeague}>
                     <Link to={{
-                        pathname: `/league/${data.idLeague}`,
+                        pathname: `/league/${data.idLeague}/${data.strCurrentSeason}`,
                     }}
                     >
                         <Card

@@ -10,15 +10,22 @@ const Axios = require('axios');
 function TableSeason() {
     const [tables, setTables] = useState([])
     const [loading, setLoading] = useState(false)
-    const { id, strSeason } = useParams()
+    const { id, season } = useParams()
 
     const getTabel = async () => {
         try {
             const data = await Axios
-                .get(`${baseURL}/1/lookuptable.php?l=${id}&s=${strSeason}`)
+                .get(`${baseURL}/1/lookuptable.php?l=${id}&s=${season}`)
                 .then(Response => {
                     const Table = Response.data.table
-                    setTables(Table)
+                    if (Table == null) {
+                        console.log(null)
+                        alert("Data courupt !")
+                    } else {
+                        setTables(Table)
+                    }
+
+
                 })
             setLoading(true)
         } catch (error) {
@@ -54,9 +61,9 @@ function TableSeason() {
     }
 
     return (
-        <div className="container">
+        <div>
             <Card
-                title={strSeason}
+                title={season}
                 className="card-detail">
             </Card>
             <Card className="card-detail">

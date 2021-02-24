@@ -3,7 +3,7 @@ import { NavigasiHome, BackNav } from "./../layout/Navigasi";
 import Home from './../pages/home/Home';
 import League from './../pages/league/League';
 import Team from './../pages/team/Team';
-import TableSeason from "./../pages/season/TableSeason";
+import About from './../pages/about/About';
 
 function Routes() {
     return (
@@ -12,17 +12,17 @@ function Routes() {
                 <NavigasiHome />
                 <Home />
             </Route>
-            <Route path="/table/:id/:strSeason">
-                <BackNav />
-                <TableSeason />
-            </Route>
-            <Route path="/league/:id">
+            <Route path="/league/:id/:season">
                 <BackNav />
                 <League />
             </Route>
             <Route path="/team/:idTeam">
                 <BackNav />
                 <Team />
+            </Route>
+            <Route path="/about">
+                <NavigasiHome />
+                <About />
             </Route>
         </Switch>
     );
