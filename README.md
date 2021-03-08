@@ -2,7 +2,7 @@
 
 This application was developed to learn how to use React JS. The application uses Axios, and performs an API request from thefootballdb.
 
-you can access this aplication in the : [the-football-dc.web.app](the-football-dc.web.app)
+you can access this aplication in the : [the-football-dc.web.app](https://the-football-dc.web.app)
 
 # Instalation
 Clone this repository using this command.
