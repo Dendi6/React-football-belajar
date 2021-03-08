@@ -17,6 +17,7 @@ last one, you can running using `npm start` and `npm built` to build your aplica
 Home | About | Menu info | League
 --- | --- | --- | --- 
 ![Home](https://github.com/Dendi6/React-football-belajar/blob/main/ss/home.jpg) | ![about](https://github.com/Dendi6/React-football-belajar/blob/main/ss/about.jpg) | ![menu info](https://github.com/Dendi6/React-football-belajar/blob/main/ss/menu.jpg) | ![League](https://github.com/Dendi6/React-football-belajar/blob/main/ss/liga_detail.jpg)
+
 League Event | Table League this Season | Team List | Team Detail
 --- | --- | --- | ---
 ![League Event](https://github.com/Dendi6/React-football-belajar/blob/main/ss/match_detail.jpg) | ![Table League this Season](https://github.com/Dendi6/React-football-belajar/blob/main/ss/table.jpg) | ![Team List](https://github.com/Dendi6/React-football-belajar/blob/main/ss/team_list.jpg) | ![Team Detail](https://github.com/Dendi6/React-football-belajar/blob/main/ss/team_detail.jpg)
